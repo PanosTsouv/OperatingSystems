@@ -1,0 +1,9 @@
+{
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc -pthread *.c -o $fileNameWithoutExt && $dir$fileNameWithoutExt 100 800",
+    },
+    "files.associations": {
+        "pthread.h": "c",
+        "pizza1.h": "c"
+    }
+}
